@@ -9,7 +9,7 @@ public class UserName {
         else {
         for(int i=0;i<name.length();i++){
             char ch=name.charAt(i);
-            if(ch==i){
+            if(ch!=32){
                 throw new SpacesException("spaces are not allowed in the username");
             }
 
