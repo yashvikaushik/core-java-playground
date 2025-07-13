@@ -19,5 +19,9 @@ public class GoldenRetriever extends Dog{
     return toy;
    }
 
+   public String toString(){
+      return "name: "+name;
+   }
+
     
 }

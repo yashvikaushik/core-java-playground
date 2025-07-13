@@ -25,6 +25,7 @@ public class AnimalDemo {
         //left side waale ke attributes and right side waale ka behaviour(methods)
         Animal anotherAnimal=new Dog("tommy",3,"beagle");
         anotherAnimal.makeSound();
+        System.out.println(goldenRetriever);
     }
     
 }

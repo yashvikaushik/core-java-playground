@@ -13,7 +13,7 @@ public class MyRunnableDemo {
         runnable2.run();*/
 
         
-Thread thread4=new Thread(runnable4);
+        Thread thread4=new Thread(runnable4);
         thread4.setName("ramesh");
 
         Thread thread1 = new Thread(runnable1);
