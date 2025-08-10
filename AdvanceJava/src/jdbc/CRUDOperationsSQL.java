@@ -15,13 +15,15 @@ public class CRUDOperationsSQL {
             e.printStackTrace();
             return; // exit if driver not found
         }
-
-        String url="jdbc:mysql://localhost:3306/ college";
-        String username="root2";
+        String url="jdbc:mysql://localhost:3306/library";
+        String user="root2";
         String password="";
-        try(Connection conn=DriverManager.getConnection(url, username, password)){
-            System.out.println("connection created");
-            /*  try(Statement stmt=conn.createStatement()){
+
+        try(Connection conn=DriverManager.getConnection(url, user, password)){
+          System.out.println("wuhu you are now connected to the database");
+
+
+          /*  try(Statement stmt=conn.createStatement()){
                 String upstmt="INSERT INTO students(id,name,email,course_id) VALUES (3,'ragahav','raghav@gmail',2)";
                 int rowsUpdated = stmt.executeUpdate(upstmt);
     
